@@ -3,7 +3,7 @@ import logging.handlers
 
 # Set Default Formatter
 
-formatter = logging.Formatter('%s(asctime)s [%(levelname)s] %(name)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(filename)s %(lineno)d: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 # Set My Logger
 
